@@ -113,12 +113,9 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.15; color: var(--ink)
 }
 .logo { display: flex; align-items: center; gap: 10px; }
 .logo-mark {
-  display: grid;
-  place-items: center;
+  display: block;
   width: 42px; height: 42px;
   border-radius: 12px;
-  background: linear-gradient(135deg, var(--blue), var(--blue-dark));
-  color: #fff;
 }
 .logo-text { font-family: var(--font-head); font-weight: 600; font-size: 1.2rem; color: var(--ink); }
 .logo-text strong { color: var(--blue); font-weight: 800; }
